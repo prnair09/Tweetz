@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tw__tweet_retweeted_by"
+        style="@style/tw__TweetRetweetedBy"
+        tools:text="Retweeted by Rakesh"
+        tools:visibility="visible"/>
+
+    <ImageView
+        tools:ignore="ContentDescription"
+        android:id="@+id/tw__tweet_author_avatar"
+        style="@style/tw__TweetAvatar"
+        android:layout_below="@id/tw__tweet_retweeted_by"
+        tools:src="#CCCCCC"/>
+
+    <TextView
+        android:id="@+id/tw__tweet_author_full_name"
+        style="@style/tw__TweetFullName"
+        android:layout_below="@id/tw__tweet_retweeted_by"
+        android:layout_toRightOf="@id/tw__tweet_author_avatar"
+        android:layout_toEndOf="@id/tw__tweet_author_avatar"
+        tools:drawableRight="@drawable/tw__ic_tweet_verified"
+        tools:drawableEnd="@drawable/tw__ic_tweet_verified"
+        tools:text="Rakesh"/>
+
+    <ImageView
+        tools:ignore="ContentDescription"
+        android:id="@+id/tw__twitter_logo"
+        style="@style/tw__TwitterLogo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/tw__tweet_retweeted_by"/>
+
+    <TextView
+        android:id="@+id/tw__tweet_author_screen_name"
+        style="@style/tw__TweetScreenName"
+        android:layout_below="@id/tw__tweet_author_full_name"
+        android:layout_alignBottom="@id/tw__tweet_author_avatar"
+        android:layout_toRightOf="@id/tw__tweet_author_avatar"
+        android:layout_toEndOf="@id/tw__tweet_author_avatar"
+        tools:text="\@Rakesh"/>
+
+    <TextView
+        android:id="@+id/tw__tweet_timestamp"
+        style="@style/tw__TweetTimestamp"
+        android:layout_below="@id/tw__tweet_author_full_name"
+        android:layout_alignBottom="@id/tw__tweet_author_screen_name"
+        android:layout_toRightOf="@id/tw__tweet_author_screen_name"
+        android:layout_toEndOf="@id/tw__tweet_author_screen_name"
+        tools:text="• 03/25/2017"/>
+
+    <TextView
+        android:id="@+id/tw__tweet_text"
+        style="@style/tw__TweetText"
+        android:layout_below="@id/tw__tweet_author_avatar"
+        tools:text="First Twitter Client"
+        tools:visibility="visible"/>
+
+    <FrameLayout
+        android:id="@+id/quote_tweet_holder"
+        style="@style/tw__QuoteTweetContainer"
+        android:layout_below="@id/tw__tweet_text"/>
+
+    <include layout="@layout/tweet_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tw__tweet_action_bar"
+        android:layout_below="@id/quote_tweet_holder" />
+
+    <View
+        android:id="@+id/bottom_separator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tw__tweet_container_bottom_separator"
+        android:layout_below="@id/quote_tweet_holder"/>
+
+</RelativeLayout>

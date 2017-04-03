@@ -1,0 +1,74 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tw__tweet_text_margin_top">12dp</dimen>
+    <dimen name="tw__tweet_text_margin_left">20dp</dimen>
+    <dimen name="tw__tweet_text_margin_right">20dp</dimen>
+
+    <!--Tweet text size-->
+    <dimen name="tw__text_size_large">16sp</dimen>
+    <dimen name="tw__text_size_medium">14sp</dimen>
+    <dimen name="tw__text_size_small">12sp</dimen>
+
+    <!--Retweeted By -->
+    <dimen name="tw__tweet_retweeted_by_margin_top">10dp</dimen>
+    <dimen name="tw__tweet_retweeted_by_margin_bottom">-10dp</dimen>
+    <dimen name="tw__tweet_retweeted_by_margin_left">20dp</dimen>
+    <dimen name="tw__tweet_retweeted_by_drawable_padding">3dp</dimen>
+
+    <!--Tweet Author Avatar-->
+    <dimen name="tw__tweet_avatar_size">36dp</dimen>
+    <dimen name="tw__tweet_avatar_margin_top">18dp</dimen>
+    <dimen name="tw__tweet_avatar_margin_left">20dp</dimen>
+    <dimen name="tw__tweet_avatar_margin_right">8dp</dimen>
+
+    <dimen name="tw__tweet_full_name_margin_right">36dp</dimen>
+    <dimen name="tw__tweet_full_name_margin_top">15dp</dimen>
+    <dimen name="tw__tweet_full_name_drawable_padding">3dp</dimen>
+    <dimen name="tw__tweet_screen_name_margin_top">-4dp</dimen>
+    <dimen name="tw__tweet_screen_name_margin_bottom">1dp</dimen>
+    <dimen name="tw__tweet_timestamp_margin_top">-4dp</dimen>
+    <dimen name="tw__tweet_timestamp_padding_left">4dp</dimen>
+
+    <!--Twitter Logo-->
+    <dimen name="tw__tweet_logo_margin_top">18dp</dimen>
+    <dimen name="tw__tweet_logo_margin_right">20dp</dimen>
+
+    <!-- Quote Tweet container -->
+    <dimen name="tw__tweet_quote_tweet_margin_horizontal">20dp</dimen>
+    <dimen name="tw__tweet_quote_tweet_margin_top">8dp</dimen>
+
+    <!--Container-->
+    <dimen name="tw__tweet_container_bottom_separator">18dp</dimen>
+
+    <!--Tweet actions-->
+    <dimen name="tw__tweet_action_button_spacing">40dp</dimen>
+    <dimen name="tw__tweet_action_bar_offset_bottom">-2dp</dimen>
+    <dimen name="tw__tweet_action_bar_offset_left">8dp</dimen>
+    <dimen name="tw__tweet_action_button_margin_top">-4dp</dimen>
+    <dimen name="tw__tweet_action_heart_size">43dp</dimen>
+    <dimen name="tw__tweet_action_share_padding">14dp</dimen>
+
+    <!--Compose Tweet-->
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="ic_small">18dp</dimen>
+    <dimen name="ic_medium">24dp</dimen>
+
+    <dimen name="text_margin_small">4dp</dimen>
+    <dimen name="text_margin_medium">8dp</dimen>
+    <dimen name="text_margin_large">16dp</dimen>
+    <dimen name="separator_line_height">0.5dp</dimen>
+
+    <dimen name="profile_image_height_small">48dp</dimen>
+    <dimen name="profile_image_width_small">48dp</dimen>
+
+    <dimen name="card_radius">6dp</dimen>
+
+    <dimen name="profile_toolbar_height">130dp</dimen>
+
+    <dimen name="ic_margin_small">4dp</dimen>
+    <dimen name="ic_margin_medium">8dp</dimen>
+    <dimen name="ic_margin_large">16dp</dimen>
+</resources>

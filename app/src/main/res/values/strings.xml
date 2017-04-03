@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Tweetz</string>
+
+    <string name="txt_profile">Profile</string>
+
+    <string name="txt_highlight">Highlight</string>
+
+    <string name="txt_moments">My Moments</string>
+
+    <string name="txt_lists">Lists</string>
+
+
+    <!--Hamburger icon -->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="login_label">Login with Twitter</string>
+
+    <string name="tw__share_tweet">Share Tweet</string>
+
+    <string name="text_home">Home</string>
+
+    <string name="search_hint_text">Search Twitter</string>
+
+    <string name="max_tweet_length">140</string>
+    <string name="tweet_compose_hint_text">Hello Rakesh!?</string>
+    <string name="tweet">Tweet</string>
+</resources>
